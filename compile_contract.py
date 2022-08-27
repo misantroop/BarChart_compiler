@@ -1,7 +1,16 @@
+'''
+    Compile BarChart CSV files, remove duplicate dates, use ISO datetime
+    
+    File structure:
+    ---CONTRACT_DIR
+    ---------------FILE1
+    ---------------FILE2
+    ---compile_contract.py
+'''
+
 import os, re, csv
 import pandas as pd
 import numpy as np
-
 
 class DataHandler():
     def __init__(self):
